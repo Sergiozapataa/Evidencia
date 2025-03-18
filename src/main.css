@@ -1,0 +1,55 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.Componenteamarillo{
+    display: flex;
+    background-image: url(/public/fondo1.jpg);
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Contenedorverde{
+    display: flex;
+    background-color:green;
+    width: 40%;
+    height: 100%;
+    border: 5px solid black; 
+}
+
+.sectionsuperior{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.ComponentesInferiores{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background-color: brown;
+    border: 5px solid black;
+}
+
+.sectioninferior{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.Componenteinterno{
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+}
