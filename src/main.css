@@ -21,7 +21,8 @@
 
 .Contenedorverde{
     display: flex;
-    background-color:green;
+    background-image: url(/public/fondo2.jpg);
+    background-size: cover;
     width: 40%;
     height: 100%;
     border: 5px solid black; 
@@ -37,7 +38,8 @@
     display: flex;
     width: 40%;
     height: auto;
-    background-color: brown;
+    background-image: url(/public/fondo3.jpg);
+    background-size: cover;
     border: 5px solid black;
 }
 
@@ -49,7 +51,8 @@
 }
 
 .Componenteinterno{
-    background-color: aqua;
+    background-image: url(/public/fondo4.jpg);
+    background-size: cover;
     width: 400px;
     height: 200px;
 }
